@@ -26,7 +26,7 @@ class Rep2Graph:
     # limit_etypes = ['proc-api', 'api-api', 'api-proc']
 
     do_limit_api = True
-    exlude_apis = ['NtQueryKey']
+    # exclude_apis = ['NtQueryKey']
     
     """ Types of node """
     n_types = [
