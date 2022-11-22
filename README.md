@@ -5,7 +5,7 @@ Similar to [HAN-sec](https://github.com/miamor/HAN-sec), but handling `Ldr[...]`
 When a process calls `Ldr[...]` APIs, it's actually retrieving address/module/path to call that function (eg. `LdrGetProcedureAddress` will get the address of a function name and call that function).  
 Refer to `utils/rep2graph.py` for more details.  
 
-[Example graph](img/0a63152a4c21e43985366350101547e5a7eaf27bdacbf6f91c5bb39275e4197a__VirusShare_8879094e5aa077947123cd62d6051302__4301.json.dot.svg)
+[Example graphs](img/)
 
 There is a mechanism to map an address with a filepath/regkey to know which file/registry key the API is interacting on. But the path is too long for rendering, so the output graph only displays the address of the file/key handle.  
 The block code for rendering full path or address here: (in `utils/rep2graph.py`)
